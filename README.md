@@ -1,1 +1,1 @@
-# Antonio Llaca
+# Lumen Graphics

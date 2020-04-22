@@ -1,8 +1,19 @@
-import React, { useReducer, useEffect, useState } from 'react';
+import React, { useReducer } from 'react';
 import './App.scss';
 
 import Navbar from './components/navbar';
 import Footer from './components/footer';
+import Card from './components/card';
+
+import {CardAssets} from './assets';
+
+interface CardData {
+  link: string;
+  description: string;
+  descriptionESP: string;
+}
+
+const cards: CardData[] = require('./assets/cards.json');
 
 const LanguageSetStore = React.createContext({});
 const LanguageStore = React.createContext({});
@@ -19,23 +30,8 @@ function languageReducer(
   }
 }
 
-function information(lang: String){
-  switch(lang){
-    case 'EN': 
-       return ["EN", "EN2"];
-    case 'SP': 
-      return ["SP", "SP2"]
-    default: 
-      return ["", ""];
-  }
-}
-
 export default function App() {
-  let [state, dispatch] = useReducer(languageReducer, {lang: 'EN'});
-  
-  useEffect(() => {
-    let info = information(state.lang);
-  }, [state.lang]);
+  let [state, dispatch] = useReducer(languageReducer, {lang: 'ENG'});
   
   return (
     <div className="home">
@@ -43,6 +39,19 @@ export default function App() {
         <LanguageSetStore.Provider value={dispatch}>
           <Navbar />
         </LanguageSetStore.Provider>
+        <div className="cards">
+          {cards.map((card, i) => {
+              return (
+                Card({
+                  key: i,
+                  link: card.link,
+                  image: String(CardAssets[card.description]),
+                  image_alt: card.description,
+                  description: state.lang === "ENG" ? card.description : card.descriptionESP,
+                })
+              )
+          })}
+        </div>
         {Footer()}
       </LanguageStore.Provider>
     </div>

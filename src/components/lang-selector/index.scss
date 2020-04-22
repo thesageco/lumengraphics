@@ -1,0 +1,9 @@
+.lang-selector {
+  .lang-item {
+    cursor: pointer;
+    padding: 0;
+    &.selected{
+      font-weight: bold;
+    }
+  }
+}
