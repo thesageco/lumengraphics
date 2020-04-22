@@ -1,0 +1,35 @@
+.footer {
+  margin-top: auto;
+  text-align: center;
+  margin-left: 0;
+  display: flex;
+  justify-content: center;
+  .footer-content {
+    width: 10%;
+    @media only screen and (max-width: 1500px) and (min-width: 1024px){
+      width: 10%;
+    }
+    @media only screen and (max-width: 1024px) and (min-width: 769px){
+      width: 20%;
+    }
+    @media only screen and (max-width: 769px){
+      width: 50%;
+    }
+    filter: invert(50%) sepia(0%) saturate(1716%) hue-rotate(161deg) brightness(91%) contrast(87%);
+    display: flex;
+    justify-content: space-around;
+    img {
+      width: 40%;
+      @media only screen and (max-width: 1500px) and (min-width: 1024px){
+        width: 50%;
+      }
+      @media only screen and (max-width: 1024px) and (min-width: 769px){
+        width: 40%;
+      }
+      @media only screen and (max-width: 769px){
+        width: 30%;
+      }
+    }
+  }
+  
+}

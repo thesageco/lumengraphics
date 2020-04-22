@@ -1,0 +1,36 @@
+.navbar {
+  max-width: 100%;
+  box-sizing: border-box;
+  color: black;
+  padding: 0.5% 0%;
+  position: sticky;
+  top: 0;
+  nav {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: baseline;
+    .left {
+      font-size: 2rem;
+      font-weight: 500;
+      @media only screen and (max-width: 769px){
+        margin-left: 1%;
+      }
+    }
+    .right {
+      @media only screen and (max-width: 769px){
+        display: none;
+      }
+      font-size: 1rem;
+      display: flex;
+      justify-content: flex-end;
+      a, .dd-wrapper {
+        margin-left: 5%;
+      }
+    }    
+  }
+  a, a:visited {
+    color: white;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,44 @@
+.dd-wrapper {
+  .dd-header-title {
+    display: flex;
+    align-items: baseline;
+    img {
+      width: 15px;
+      &.down{
+        transition: 0.70s;
+        -webkit-transition: 0.70s;
+        -moz-transition: 0.70s;
+        -ms-transition: 0.70s;
+        -o-transition: 0.70s;
+      }
+      &.up{
+        transition: 0.70s;
+        -webkit-transition: 0.70s;
+        -moz-transition: 0.70s;
+        -ms-transition: 0.70s;
+        -o-transition: 0.70s;
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        transform: rotate(180deg);
+      }
+    }
+  }
+  .dd-list {
+    float: left;
+    padding: 0;
+    list-style-type: none;
+    &.show {
+      display: block;
+    }
+    &.hide {
+      display:none;
+    }
+    li {
+      &.selected{
+        display: none;
+      }
+    }
+  }
+}
