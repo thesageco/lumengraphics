@@ -1,0 +1,15 @@
+{
+  "short_name": "Lumen Graphics",
+  "name": "Lumen Graphics",
+  "icons": [
+    {
+      "src": "favicon.jpeg",
+      "sizes": "4368x4380",
+      "type": "image/jpeg"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#000000"
+}
