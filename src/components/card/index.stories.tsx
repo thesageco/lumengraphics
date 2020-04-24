@@ -14,7 +14,6 @@ export default {
 
 export const Normal = () =>  {
   return Card({
-      link: "/apparel",
       image: String(apparel),
       image_alt: "Apparel",
       description: "Apparel",

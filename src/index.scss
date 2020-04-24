@@ -3,6 +3,11 @@
   src: url('assets/fonts/avenir_light.otf') format('opentype');
 }
 
+@font-face {
+  font-family: 'Open Sans';
+  src:  url('assets/fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
 html {
   font-size: 15px;
   color:#999;

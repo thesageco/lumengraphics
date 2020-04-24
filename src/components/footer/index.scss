@@ -1,6 +1,8 @@
 .footer {
   .footer-content {
-    padding: 5vw;
+    padding-top: 3vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,6 +22,14 @@
         width: 100%;
         filter: invert(67%) sepia(10%) saturate(7%) hue-rotate(43deg) brightness(89%) contrast(93%);
       }
+    }
+  }
+  .SageCo {
+    text-align: center;
+    font-size: 0.8rem;
+    font-family: 'Open Sans';
+    @media only screen and (max-width: 769px){
+      padding-top: 1vh;
     }
   }
 }

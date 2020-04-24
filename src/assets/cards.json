@@ -1,41 +1,33 @@
 [
   {
-    "link": "/large-format-printing",
     "description": "Large Format Printing",
     "descriptionESP": "Impresión comercial y soluciones de marketing"
   },
   {
-    "link": "/luminous-signs",
     "description": "Luminous Signs",
     "descriptionESP": "Letreros luminosos"
   },
   {
-    "link": "/banners",
     "description": "Banners",
     "descriptionESP": "Banners"
   },
   {
-    "link": "/vehicle-wraps",
     "description": "Vehicle Wraps",
     "descriptionESP": "Wraps para vehículos"
   },
   {
-    "link": "/windows-and-wall-graphics",
     "description": "Windows & Walls Graphics",
     "descriptionESP": "Gráficos para pared y ventana"
   },
   {
-    "link": "/apparel",
     "description": "Apparel",
     "descriptionESP": "Prendas"
   },
   {
-    "link": "/business-cards",
     "description": "Business Cards",
     "descriptionESP": "Tarjetas de presentación"
   },
   {
-    "link": "/promotional-products",
     "description": "Promotional Products",
     "descriptionESP": "Productos promocionales"
   }

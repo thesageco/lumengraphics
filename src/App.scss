@@ -5,6 +5,7 @@
   flex-direction:column; 
   justify-content: space-around;
   .cards {
+    user-select: none;
     display:flex; 
     flex-direction:row; 
     @media only screen and (max-width: 769px){
@@ -19,7 +20,6 @@
         max-width: 90vw;
       }
       img {
-        cursor: pointer;
         max-width: 100%;
         @media only screen and (max-width: 769px){
           max-width: 95%;

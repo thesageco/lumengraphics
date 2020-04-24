@@ -15,7 +15,7 @@ function Navbar() {
         </div>
         <div className="right">
           <div className="contact-language">
-            <a href="contact">
+            <a href="mailto:lumengraphicsdallas@gmail.com">
               <p>{lang === "ENG" ? "Contact" : "Contacto"}</p>
             </a>
             {LangSelector({
