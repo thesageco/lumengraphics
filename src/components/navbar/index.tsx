@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './index.scss';
 import LangSelector from '../lang-selector';
+import { LanguageStore } from '../../App'
 import logo from '../../assets/logo/logo.png'
 
 function Navbar() {
+  
+  const lang = useContext(LanguageStore);
   return (
     <div className="navbar">
       <nav className="navbar container">
@@ -13,13 +16,13 @@ function Navbar() {
         <div className="right">
           <div className="contact-language">
             <a href="contact">
-              <p>Contact</p>
+              <p>{lang === "ENG" ? "Contact" : "Contacto"}</p>
             </a>
             {LangSelector({
               options: ["ENG", "ESP"]
             })}
           </div>
-          <p id="tagline">Business printing and marketing solutions</p>
+          <p id="tagline">{lang === "ENG" ? "Business printing and marketing solutions" : "Impresión comercial y soluciones de marketing"}</p>
         </div>
       </nav>
     </div>

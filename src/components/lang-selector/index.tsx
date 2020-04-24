@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
 import './index.scss';
-import { LanguageSetStore } from '../../App'
+import { LanguageSetStore } from '../../App';
 
 interface LangSelectorProp {
   options: String[];

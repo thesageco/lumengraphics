@@ -18,6 +18,7 @@
       }
       img {
         width: 100%;
+        filter: invert(67%) sepia(10%) saturate(7%) hue-rotate(43deg) brightness(89%) contrast(93%);
       }
     }
   }
