@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/lumengraphics/static/css/main.d41a801d.chunk.css",
-    "main.js": "/lumengraphics/static/js/main.647b7d21.chunk.js",
-    "main.js.map": "/lumengraphics/static/js/main.647b7d21.chunk.js.map",
+    "main.css": "/lumengraphics/static/css/main.bd47ff18.chunk.css",
+    "main.js": "/lumengraphics/static/js/main.22235b06.chunk.js",
+    "main.js.map": "/lumengraphics/static/js/main.22235b06.chunk.js.map",
     "runtime-main.js": "/lumengraphics/static/js/runtime-main.8a2ae894.js",
     "runtime-main.js.map": "/lumengraphics/static/js/runtime-main.8a2ae894.js.map",
     "static/js/2.26bd4e0e.chunk.js": "/lumengraphics/static/js/2.26bd4e0e.chunk.js",
     "static/js/2.26bd4e0e.chunk.js.map": "/lumengraphics/static/js/2.26bd4e0e.chunk.js.map",
     "index.html": "/lumengraphics/index.html",
-    "precache-manifest.cb625630a443509429daa67d8bce6165.js": "/lumengraphics/precache-manifest.cb625630a443509429daa67d8bce6165.js",
+    "precache-manifest.4a1c7740c27a1e914d70578d5b59fdef.js": "/lumengraphics/precache-manifest.4a1c7740c27a1e914d70578d5b59fdef.js",
     "service-worker.js": "/lumengraphics/service-worker.js",
-    "static/css/main.d41a801d.chunk.css.map": "/lumengraphics/static/css/main.d41a801d.chunk.css.map",
+    "static/css/main.bd47ff18.chunk.css.map": "/lumengraphics/static/css/main.bd47ff18.chunk.css.map",
     "static/js/2.26bd4e0e.chunk.js.LICENSE.txt": "/lumengraphics/static/js/2.26bd4e0e.chunk.js.LICENSE.txt",
     "static/media/apparel.jpg": "/lumengraphics/static/media/apparel.f2b01daa.jpg",
     "static/media/index.scss": "/lumengraphics/static/media/avenir_light.0b78ec9d.otf",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.8a2ae894.js",
     "static/js/2.26bd4e0e.chunk.js",
-    "static/css/main.d41a801d.chunk.css",
-    "static/js/main.647b7d21.chunk.js"
+    "static/css/main.bd47ff18.chunk.css",
+    "static/js/main.22235b06.chunk.js"
   ]
 }
