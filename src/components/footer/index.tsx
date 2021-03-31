@@ -7,8 +7,8 @@ export default function Footer() {
     <div className="footer">
       <footer>
         <div className="footer-content">
-          <a href="tel:940-293-7891">
-            <p className="phone">+1 (940) 293-7891</p>
+          <a href="tel:469-232-7446">
+            <p className="phone">+1 (469) 232-7446</p>
           </a>
           <a className="email" href="mailto:lumengraphicsdallas@gmail.com">
             <p>lumengraphicsdallas@gmail.com</p>
